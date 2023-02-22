@@ -1,0 +1,172 @@
+@media (min-width: 1024px) {
+    .block-bg {
+        background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+        border-radius: 0px 0px 12px 12px;
+        .H-logo {
+            width: 670px;
+            height: 768px;
+            position: absolute;
+            background: url(/img/Header/Symbol-tablet-hd.png) no-repeat;
+            left: calc(50% - 670px/2);
+        }
+    }    
+
+    .block__header {
+        padding: 50px 60px 0 0;
+        justify-content: flex-end;
+    }
+
+    .block__header-lang {
+        position: relative;
+    }
+
+    .block__wrap-header-logo-hlegal {
+        svg {
+            margin: -30px 0 0 60px;
+        }
+    }
+
+    .block__wrap-menu {
+        position: relative;
+    }
+
+    .block__wrap-menu-nav {
+        justify-content: flex-end;
+        padding: 0 60px 0 0;
+    }    
+
+    .block__title {
+        position: relative;
+        padding: 220px 0 0 0;
+    }    
+
+    .block__scroll {
+        .block__scroll-svg {
+            position: relative;
+            margin: 289px 0 0 calc(50% - 42px/2 + 0.5px);
+        }    
+    }    
+
+    .container-wrap {
+        display: flex;
+    }
+
+    .block__wraper {
+        padding: 90px 0 0 60px;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-end;
+    }    
+
+    .block__wraper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .block__wraper-text {
+        padding-right: 0;
+    }
+
+    .block__wraper-wrap {
+        padding-right: 0;
+    }
+
+    .block__wraper-wrap-text-1 {
+        padding-right: 10px;
+    }
+    
+    .block__wraper-text-2 {
+        padding-right: 0;
+    }
+
+    .block__wraper-wrap1 {
+        padding-right: 0;
+    }
+
+    .block__wraper-wrap1-text-3 {
+        padding-right: 0;
+    }
+
+    .block-services {
+        flex-direction: row;
+        justify-content: unset;
+        width: 57%;
+        padding: 90px 60px 0 0;
+    }
+
+    .block-services__line {
+        margin: 0 60px 0 60px;
+    }
+
+    .block-serveces__title {
+        padding-top: 10px;
+    }
+
+    .block-services__text {
+        padding: 30px 0 10px 0;
+    }
+
+    .container__block-commerce {
+        width: 28%;
+    }
+    
+    .shadow-bg-1 {
+        width: 96%;
+    }   
+
+    .shadow-bg-2 {
+        width: 92%;
+    }
+    
+    .container2 {
+        padding: 60px 60px 0 60px;
+    }
+
+    .container2__block {
+        display: flex;
+    }
+
+    .container2__block-photo {
+        padding:0 0 0 400px;
+        width: unset;
+        background: url(/img/Statement/man-tablet-hd.png) no-repeat center;
+    }
+
+    .card {
+        width: 25%;
+    }
+
+    .container4__title {
+        font-size: 38px;
+    }
+
+    .card__news {
+        width: 31%;
+    }
+
+    .card__news-1 {
+        width: 31%;
+        margin: 0;
+    }
+
+    .card__news-2 {
+        width: 31%;
+        margin: 0;
+    }
+
+    .news__photo-2 {
+        background: url(/img/card-news-photo/peopple-tablet-hd.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .block__number {
+        font-size: 16px;
+    }
+
+    .block__link-email {
+        font-size: 16px;
+    }
+
+    .footer__law-company {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,318 @@
+@media (min-width: 768px) {
+    .block-bg {
+        background-size: cover;
+        background: url(/img/Header/Symbol-tablet-sd.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    }
+
+    .block__header {
+        padding: 50px 0 0 67px;
+        justify-content: unset;
+        background: none;
+        .block__header-adress {
+            display: unset;
+            font-family: 'Montserrat';
+            line-height: 20px;
+            color: #B3B3BA;    
+        }
+        svg {
+            display: unset;
+            margin: 0 6px;
+        }
+        a {
+            display: unset;
+            padding-top: 2px;
+        }
+    }
+
+    .block__wrap {
+        display: unset;
+        padding: 0;
+    }
+
+    .block__wrap-header-logo {
+        display: unset;
+    }    
+
+    .block__wrap-header-logo-hlegal {
+        svg {
+            display: inline-block;
+            margin: 30px 0 0 60px;
+            width: 130px;
+            height: 60px;
+        }
+    }
+
+    .block__wrap-header-logo-line {
+        display: none;
+    }
+
+    .block__wrap-header-logo-hlegal-services {
+        display: none;
+    }
+
+    .block__wrap-menu:hover .block__wrap-menu-nav {
+        display: flex;
+        position: unset;
+    }
+
+    .block__wrap-menu-nav {
+        display: flex;
+        padding: 30px 0 0 60px;
+        a {
+            display: unset;
+            margin-left: 15px;
+        }
+        a:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .block__wrap-menu {
+        position: unset;
+        display: unset;
+    }
+    
+    .block__wrap-menu span {
+        display: none;
+    }
+    
+    .block__title {
+        display: block;
+        padding: 269px 0 0 0;
+    }
+
+    .block__wraper {
+        padding: 60px 0 0 60px;
+    }
+
+    .block__scroll {
+        .block__scroll-svg {
+            margin: 417px 0 0 calc(50% - 42px/2 + 0.5px);
+        }
+    }
+
+    .block__wraper-text {
+        font-size: 38px;
+    }
+
+    .block__wraper-wrap {
+        padding-right: 30px;
+    }
+
+    .block__wraper-wrap-text-1 {
+        font-size: 38px;
+    }
+
+    .block__wraper-text-2 {
+        font-size: 38px;
+    }
+
+    .block__wraper-wrap1-text-3 {
+        font-size: 38px;
+    }
+
+    .block-services {
+        padding: 60px 60px 0 60px;
+    }
+
+    .block-serveces__title {
+        padding-top: 60px;
+        font-size: 30px;
+    }
+
+    .container__wrap-text {
+        font-size: 38px;
+    }
+
+    .container {
+        padding: 60px 60px;
+    }    
+
+    .container__block {
+        justify-content: space-between;
+        padding-top: 60px;
+    }
+
+    .container__block-commerce {
+        width: 45%;
+    }
+
+    // xoень все криво сделал надо поменять?
+    .shadow-bg-1 {
+        margin: 0 20px;
+        width: 95%;
+        padding-top: 10px;
+        background: #CACADB;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .shadow-bg-2 {
+        margin: 0 40px;
+        width: 90%;
+        padding-top: 10px;    
+        background: #E7E7F2;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .container2 {
+        padding: 60px 60px 0 60px;
+    }
+
+    .container2__block-photo {
+        width: 100%;
+        padding-top: 500px;
+        background: url(/img/Statement/man-tablet-sd.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .block-statement__statement {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .container3 {
+        padding-top: 60px;
+    }    
+
+    .frame {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .card {
+        width: 33%;
+    }
+
+    .frame__card-hillel {
+    background: #1C4280 url(/img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
+    }
+
+    .frame__card-wannabiz {
+        background: #143646 url(/img/frame-card/wannabiz.png) no-repeat center center;
+    }
+
+    .frame__card-tapgerine {
+        background: #F48B30 url(/img/frame-card/tapgerine.png) no-repeat center center;
+    }
+
+    .frame__card-3dlook {
+        background: #9E4DC3 url(/img/frame-card/3dlook.png) no-repeat center center;
+    }
+
+    .frame__card-orangear {
+        background: #FD9339 url(/img/frame-card/orangear.png) no-repeat center center;
+    }
+
+    .frame__card-adtelligent {
+        display: block;
+        background: #E2E2E4 url(/img/frame-card/adtelliege.png) no-repeat center center;
+    }
+
+    .frame__card-clickky {
+        display: block;
+        background: #C71C36 url(/img/frame-card/clickky.png) no-repeat center center;
+    }
+    .frame__card-ecoleasing {
+        display: block;
+        background: #DCF3F9 url(/img/frame-card/ecolease.png) no-repeat center center;
+    }
+    .frame__card-infratek {
+        display: block;
+        background: #EAEAEA url(/img/frame-card/infratek.png) no-repeat center center;
+    }
+    .frame__card-citypark {
+        display: block;
+        background: #282240 url(/img/frame-card/citypark.png) no-repeat center center;
+    }
+    .frame__card-artprint {
+        display: block;
+        background: #1D4568 url(/img/frame-card/artprint.png) no-repeat center center;
+    }
+    .frame__card-ultimatecard {
+        display: block;
+        background: #000000 url(/img/frame-card/ultimatecard.png) no-repeat center center;
+    }
+
+    .container4 {
+        padding: 30px 60px 0 60px;
+    }
+
+    .container4__title {
+        font-size: 38px;
+    }
+
+    .container4__card {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card__news {
+        width: 48%;
+    }
+
+    .card__news-1 {
+        width: 48%;
+        margin: 0;
+    }
+
+    .news__photo-2 {
+        background: url(/img/card-news-photo/peopple-tablet-sd.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .line {
+        margin-top: 30px;
+        border: solid 2px #E6E6F0;
+    }
+
+    .footer {
+        flex-direction: row;
+        align-items: unset;
+        justify-content: space-between;
+        padding: 30px 60px 30px 60px;
+    }
+
+    .block__point {
+        display: unset;
+        margin: 0 10px;
+    }
+
+    .wraper__block {
+        display: flex;
+        align-items: center;
+    }
+
+    .wraper__block1 {
+        padding-top: 21px;
+        display: flex;
+        align-items: center;
+    }
+
+    .block__link-map {
+        display: unset;
+        padding-top: 0;
+    }
+
+    .block__facebook {
+        margin: 0;
+    }
+
+    .block__number {
+        display: unset;
+        padding-top: 0;
+        font-size: 15px;
+    }
+
+    .block__link-email {
+        display: unset;
+        padding-top: 0;
+        font-size: 15px;
+    }
+
+    .footer__law-company {
+        padding-top: 0;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,1137 @@
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../font/Montserrat-Bold.eot");
+  src: url("../font/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Montserrat-Bold.woff2") format("woff2"), url("../font/Montserrat-Bold.woff") format("woff"), url("../font/Montserrat-Bold.ttf") format("truetype"), url("../font/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Regular.eot");
+  src: url("../font/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Montserrat-Regular.woff2") format("woff2"), url("../font/Montserrat-Regular.woff") format("woff"), url("../font/Montserrat-Regular.ttf") format("truetype"), url("../font/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat-Bold", Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+.block-bg {
+  width: 100%;
+  position: relative;
+  background: url(/img/Header/Symbol-mobile.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0px 0px 12px 12px;
+}
+
+.block__header {
+  padding: 10px 15px 10px 8px;
+  width: 100%;
+  background: rgba(245, 245, 250, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block__header .block__header-adress {
+  display: none;
+}
+.block__header svg {
+  display: none;
+}
+.block__header a {
+  display: none;
+}
+
+.block__header-lang {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.block__header-lang span {
+  padding: 5px 7px 5px 7px;
+}
+.block__header-lang :hover {
+  background: #f0145a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.block__header-number {
+  color: #ffffff;
+}
+
+.block__wrap {
+  padding: 0 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block__wrap-header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.block__wrap-header-logo-hlegal svg {
+  margin: 15px 6px 0 0px;
+}
+
+.block__wrap-header-logo-hlegal-services {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.block__wrap-menu-nav {
+  display: none;
+}
+.block__wrap-menu-nav a {
+  display: flex;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.block__wrap-menu-nav :hover {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.block__wrap-menu {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 20px;
+}
+
+.block__wrap-menu span {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 9px;
+}
+
+.block__wrap-menu span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  left: 0;
+  top: 9px;
+}
+
+.block__wrap-menu span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  left: 0;
+  bottom: 9px;
+}
+
+.block__wrap-menu:hover .block__wrap-menu-nav {
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: -110px;
+}
+
+.block__wrap-menu:hover span {
+  height: 0;
+}
+.block__wrap-menu:hover span::before {
+  transition: 0.5s;
+  transform: rotate(45deg);
+  top: -3px;
+}
+.block__wrap-menu:hover span::after {
+  transition: 0.5s;
+  transform: rotate(-45deg);
+  bottom: 1px;
+}
+
+.block__title {
+  display: flex;
+  justify-content: center;
+  padding: 129px 30px 0 30px;
+  font-size: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.block__wraper {
+  padding: 60px 0 0 30px;
+  display: flex;
+  overflow-x: scroll;
+}
+.block__wraper :hover {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.block__wraper::-webkit-scrollbar {
+  display: none;
+}
+
+.block__scroll .block__scroll-svg {
+  margin: 159px 0 0 calc(50% - 21px + 0.5px);
+}
+.block__scroll :hover circle {
+  stroke: #F0145A;
+}
+.block__scroll :hover path {
+  stroke: #F0145A;
+}
+
+.block__wraper-text {
+  padding-right: 30px;
+  font-size: 30px;
+  color: #B3B3BA;
+}
+
+.block__wraper-wrap {
+  display: flex;
+  padding-right: 20px;
+}
+
+.block__wraper-wrap-text-1 {
+  padding-right: 10px;
+  font-size: 30px;
+  color: #B3B3BA;
+}
+
+.block__wraper-text-2 {
+  padding-right: 30px;
+  font-size: 30px;
+  color: #B3B3BA;
+}
+
+.block__wraper-wrap1 {
+  display: flex;
+  padding-right: 20px;
+}
+
+.block__wraper-wrap1-text-3 {
+  padding-right: 10px;
+  font-size: 30px;
+  color: #B3B3BA;
+}
+
+.block-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px 30px 0 30px;
+}
+
+.block-services__line {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.block-serveces__title {
+  display: block;
+  padding-top: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.block-services__text {
+  display: block;
+  padding-top: 30px;
+  font-family: "Montserrat";
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.container__wrap-services-link {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  cursor: pointer;
+}
+.container__wrap-services-link svg {
+  vertical-align: middle;
+}
+
+.container__wrap-text {
+  padding-top: 10px;
+  font-size: 30px;
+  line-height: 36px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  padding: 30px 30px;
+}
+
+.container__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__hover:hover {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container__hover:hover path {
+  stroke: #F0145A;
+}
+
+.container__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__block-commerce {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 15px 0;
+}
+
+.container__block-commerce-bg {
+  position: relative;
+  padding-top: 92px;
+  width: 92px;
+  border-radius: 24px;
+  background: #ffffff;
+}
+.container__block-commerce-bg svg {
+  position: absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
+}
+
+.title {
+  padding: 30px 0 15px 0;
+  font-size: 22px;
+  line-height: 26px;
+  color: #24a3ff;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.container2 {
+  padding: 5px 30px 0 30px;
+}
+
+.container2__block {
+  background: #F5F5FA;
+  border-radius: 12px;
+}
+
+.container2__block-photo {
+  width: 100%;
+  padding-top: 500px;
+  background: url(/img/Statement/man-mobile.png) no-repeat center;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.container2__block-statement {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+}
+
+.block-statement__team-text {
+  letter-spacing: 1px;
+  color: #24A3FF;
+}
+
+.block-statement__statement {
+  padding-top: 5px;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.block-statement__fullname {
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+}
+
+.block-statement__post {
+  padding-top: 6px;
+  font-family: "Montserrat";
+  color: #B3B3BA;
+}
+
+.container2__swipe-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.container2__swipe-menu :hover {
+  background: #24A3FF;
+  opacity: 1;
+}
+
+.swipe-menu__circle {
+  margin-left: 15px;
+  width: 16px;
+  height: 16px;
+  background: #24A3FF;
+  opacity: 0.2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.container3 {
+  padding-top: 60px;
+}
+
+.container3__title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+}
+
+.frame {
+  padding-top: 30px;
+}
+
+.card {
+  width: 100%;
+  padding-top: 120px;
+}
+
+.frame__card-hillel {
+  background: #1C4280 url(/img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
+}
+
+.frame__card-wannabiz {
+  background: #143646 url(/img/frame-card/wannabiz.png) no-repeat center center;
+}
+
+.frame__card-tapgerine {
+  background: #F48B30 url(/img/frame-card/tapgerine.png) no-repeat center center;
+}
+
+.frame__card-3dlook {
+  background: #9E4DC3 url(/img/frame-card/3dlook.png) no-repeat center center;
+}
+
+.frame__card-orangear {
+  background: #FD9339 url(/img/frame-card/orangear.png) no-repeat center center;
+}
+
+.frame__card-adtelligent {
+  display: none;
+}
+
+.frame__card-clickky {
+  display: none;
+}
+
+.frame__card-ecoleasing {
+  display: none;
+}
+
+.frame__card-infratek {
+  display: none;
+}
+
+.frame__card-citypark {
+  display: none;
+}
+
+.frame__card-artprint {
+  display: none;
+}
+
+.frame__card-ultimatecard {
+  display: none;
+}
+
+.container4 {
+  padding: 30px 30px 0 30px;
+  background: #F5F5FA;
+}
+
+.container4__publications {
+  display: block;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+
+.container4__title {
+  padding-top: 5px;
+  font-size: 30px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.container4__card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.card__news {
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.news__photo {
+  width: 100%;
+  padding-top: 200px;
+  background: url(/img/card-news-photo/theworkingprocess-mobile.png) no-repeat center;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.news__title {
+  display: flex;
+  width: 97%;
+  padding: 30px 0 0 30px;
+  font-size: 16px;
+  color: #24A3FF;
+}
+
+.news__data {
+  display: flex;
+  padding: 15px 0 0 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+}
+
+.news__line {
+  margin: 15px 30px 0 30px;
+  border: solid 4px #E6E6F0;
+}
+
+.news__text {
+  display: flex;
+  padding: 15px 30px 30px 30px;
+  font-family: "Montserrat";
+}
+
+.card__news-1 {
+  margin-top: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.news__photo-1 {
+  width: 100%;
+  padding-top: 200px;
+  background: url(/img/card-news-photo/flaggdpr-mobile.png) no-repeat center;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.card__news-2 {
+  margin-top: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.news__photo-2 {
+  width: 100%;
+  padding-top: 200px;
+  background: url(/img/card-news-photo/peopple-mobile.png) no-repeat center;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.line {
+  margin-top: 30px;
+  border: solid 2px #E6E6F0;
+}
+
+.footer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #F5F5FA;
+  align-items: center;
+}
+
+.block__point {
+  display: none;
+}
+
+.block__adress {
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #323264;
+}
+
+.block__link-map {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #24A3FF;
+  text-transform: uppercase;
+}
+
+.block__facebook {
+  margin: 21px 0 0 calc(50% - 19px);
+}
+
+.block__number {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  color: #46466E;
+}
+
+.block__link-email {
+  display: block;
+  padding-top: 10px;
+  color: #24A3FF;
+}
+
+.footer__law-company {
+  padding-top: 30px;
+  font-family: "Montserrat";
+  color: #B3B3BA;
+}
+
+@media (min-width: 768px) {
+  .block-bg {
+    background-size: cover;
+    background: url(/img/Header/Symbol-tablet-sd.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  }
+  .block__header {
+    padding: 50px 0 0 67px;
+    justify-content: unset;
+    background: none;
+  }
+  .block__header .block__header-adress {
+    display: unset;
+    font-family: "Montserrat";
+    line-height: 20px;
+    color: #B3B3BA;
+  }
+  .block__header svg {
+    display: unset;
+    margin: 0 6px;
+  }
+  .block__header a {
+    display: unset;
+    padding-top: 2px;
+  }
+  .block__wrap {
+    display: unset;
+    padding: 0;
+  }
+  .block__wrap-header-logo {
+    display: unset;
+  }
+  .block__wrap-header-logo-hlegal svg {
+    display: inline-block;
+    margin: 30px 0 0 60px;
+    width: 130px;
+    height: 60px;
+  }
+  .block__wrap-header-logo-line {
+    display: none;
+  }
+  .block__wrap-header-logo-hlegal-services {
+    display: none;
+  }
+  .block__wrap-menu:hover .block__wrap-menu-nav {
+    display: flex;
+    position: unset;
+  }
+  .block__wrap-menu-nav {
+    display: flex;
+    padding: 30px 0 0 60px;
+  }
+  .block__wrap-menu-nav a {
+    display: unset;
+    margin-left: 15px;
+  }
+  .block__wrap-menu-nav a:first-child {
+    margin-left: 0;
+  }
+  .block__wrap-menu {
+    position: unset;
+    display: unset;
+  }
+  .block__wrap-menu span {
+    display: none;
+  }
+  .block__title {
+    display: block;
+    padding: 269px 0 0 0;
+  }
+  .block__wraper {
+    padding: 60px 0 0 60px;
+  }
+  .block__scroll .block__scroll-svg {
+    margin: 417px 0 0 calc(50% - 21px + 0.5px);
+  }
+  .block__wraper-text {
+    font-size: 38px;
+  }
+  .block__wraper-wrap {
+    padding-right: 30px;
+  }
+  .block__wraper-wrap-text-1 {
+    font-size: 38px;
+  }
+  .block__wraper-text-2 {
+    font-size: 38px;
+  }
+  .block__wraper-wrap1-text-3 {
+    font-size: 38px;
+  }
+  .block-services {
+    padding: 60px 60px 0 60px;
+  }
+  .block-serveces__title {
+    padding-top: 60px;
+    font-size: 30px;
+  }
+  .container__wrap-text {
+    font-size: 38px;
+  }
+  .container {
+    padding: 60px 60px;
+  }
+  .container__block {
+    justify-content: space-between;
+    padding-top: 60px;
+  }
+  .container__block-commerce {
+    width: 45%;
+  }
+  .shadow-bg-1 {
+    margin: 0 20px;
+    width: 95%;
+    padding-top: 10px;
+    background: #CACADB;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .shadow-bg-2 {
+    margin: 0 40px;
+    width: 90%;
+    padding-top: 10px;
+    background: #E7E7F2;
+    border-radius: 0px 0px 12px 12px;
+  }
+  .container2 {
+    padding: 60px 60px 0 60px;
+  }
+  .container2__block-photo {
+    width: 100%;
+    padding-top: 500px;
+    background: url(/img/Statement/man-tablet-sd.png) no-repeat center;
+    background-size: cover;
+  }
+  .block-statement__statement {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .container3 {
+    padding-top: 60px;
+  }
+  .frame {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .card {
+    width: 33%;
+  }
+  .frame__card-hillel {
+    background: #1C4280 url(/img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
+  }
+  .frame__card-wannabiz {
+    background: #143646 url(/img/frame-card/wannabiz.png) no-repeat center center;
+  }
+  .frame__card-tapgerine {
+    background: #F48B30 url(/img/frame-card/tapgerine.png) no-repeat center center;
+  }
+  .frame__card-3dlook {
+    background: #9E4DC3 url(/img/frame-card/3dlook.png) no-repeat center center;
+  }
+  .frame__card-orangear {
+    background: #FD9339 url(/img/frame-card/orangear.png) no-repeat center center;
+  }
+  .frame__card-adtelligent {
+    display: block;
+    background: #E2E2E4 url(/img/frame-card/adtelliege.png) no-repeat center center;
+  }
+  .frame__card-clickky {
+    display: block;
+    background: #C71C36 url(/img/frame-card/clickky.png) no-repeat center center;
+  }
+  .frame__card-ecoleasing {
+    display: block;
+    background: #DCF3F9 url(/img/frame-card/ecolease.png) no-repeat center center;
+  }
+  .frame__card-infratek {
+    display: block;
+    background: #EAEAEA url(/img/frame-card/infratek.png) no-repeat center center;
+  }
+  .frame__card-citypark {
+    display: block;
+    background: #282240 url(/img/frame-card/citypark.png) no-repeat center center;
+  }
+  .frame__card-artprint {
+    display: block;
+    background: #1D4568 url(/img/frame-card/artprint.png) no-repeat center center;
+  }
+  .frame__card-ultimatecard {
+    display: block;
+    background: #000000 url(/img/frame-card/ultimatecard.png) no-repeat center center;
+  }
+  .container4 {
+    padding: 30px 60px 0 60px;
+  }
+  .container4__title {
+    font-size: 38px;
+  }
+  .container4__card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card__news {
+    width: 48%;
+  }
+  .card__news-1 {
+    width: 48%;
+    margin: 0;
+  }
+  .news__photo-2 {
+    background: url(/img/card-news-photo/peopple-tablet-sd.png) no-repeat center;
+    background-size: cover;
+  }
+  .line {
+    margin-top: 30px;
+    border: solid 2px #E6E6F0;
+  }
+  .footer {
+    flex-direction: row;
+    align-items: unset;
+    justify-content: space-between;
+    padding: 30px 60px 30px 60px;
+  }
+  .block__point {
+    display: unset;
+    margin: 0 10px;
+  }
+  .wraper__block {
+    display: flex;
+    align-items: center;
+  }
+  .wraper__block1 {
+    padding-top: 21px;
+    display: flex;
+    align-items: center;
+  }
+  .block__link-map {
+    display: unset;
+    padding-top: 0;
+  }
+  .block__facebook {
+    margin: 0;
+  }
+  .block__number {
+    display: unset;
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .block__link-email {
+    display: unset;
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .footer__law-company {
+    padding-top: 0;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .block-bg {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;
+  }
+  .block-bg .H-logo {
+    width: 670px;
+    height: 768px;
+    position: absolute;
+    background: url(/img/Header/Symbol-tablet-hd.png) no-repeat;
+    left: calc(50% - 335px);
+  }
+  .block__header {
+    padding: 50px 60px 0 0;
+    justify-content: flex-end;
+  }
+  .block__header-lang {
+    position: relative;
+  }
+  .block__wrap-header-logo-hlegal svg {
+    margin: -30px 0 0 60px;
+  }
+  .block__wrap-menu {
+    position: relative;
+  }
+  .block__wrap-menu-nav {
+    justify-content: flex-end;
+    padding: 0 60px 0 0;
+  }
+  .block__title {
+    position: relative;
+    padding: 220px 0 0 0;
+  }
+  .block__scroll .block__scroll-svg {
+    position: relative;
+    margin: 289px 0 0 calc(50% - 21px + 0.5px);
+  }
+  .container-wrap {
+    display: flex;
+  }
+  .block__wraper {
+    padding: 90px 0 0 60px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .block__wraper::-webkit-scrollbar {
+    display: none;
+  }
+  .block__wraper-text {
+    padding-right: 0;
+  }
+  .block__wraper-wrap {
+    padding-right: 0;
+  }
+  .block__wraper-wrap-text-1 {
+    padding-right: 10px;
+  }
+  .block__wraper-text-2 {
+    padding-right: 0;
+  }
+  .block__wraper-wrap1 {
+    padding-right: 0;
+  }
+  .block__wraper-wrap1-text-3 {
+    padding-right: 0;
+  }
+  .block-services {
+    flex-direction: row;
+    justify-content: unset;
+    width: 57%;
+    padding: 90px 60px 0 0;
+  }
+  .block-services__line {
+    margin: 0 60px 0 60px;
+  }
+  .block-serveces__title {
+    padding-top: 10px;
+  }
+  .block-services__text {
+    padding: 30px 0 10px 0;
+  }
+  .container__block-commerce {
+    width: 28%;
+  }
+  .shadow-bg-1 {
+    width: 96%;
+  }
+  .shadow-bg-2 {
+    width: 92%;
+  }
+  .container2 {
+    padding: 60px 60px 0 60px;
+  }
+  .container2__block {
+    display: flex;
+  }
+  .container2__block-photo {
+    padding: 0 0 0 400px;
+    width: unset;
+    background: url(/img/Statement/man-tablet-hd.png) no-repeat center;
+  }
+  .card {
+    width: 25%;
+  }
+  .container4__title {
+    font-size: 38px;
+  }
+  .card__news {
+    width: 31%;
+  }
+  .card__news-1 {
+    width: 31%;
+    margin: 0;
+  }
+  .card__news-2 {
+    width: 31%;
+    margin: 0;
+  }
+  .news__photo-2 {
+    background: url(/img/card-news-photo/peopple-tablet-hd.png) no-repeat center;
+    background-size: cover;
+  }
+  .block__number {
+    font-size: 16px;
+  }
+  .block__link-email {
+    font-size: 16px;
+  }
+  .footer__law-company {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1440px) {
+  .block-bg .H-logo {
+    width: 705px;
+    height: 799px;
+    background: url(/img/Header/Symbol-desktop-sd.png) no-repeat;
+    left: calc(50% - 352.5px);
+  }
+  .block__title {
+    padding: 240px 0 0 0;
+  }
+  .block__scroll .block__scroll-svg {
+    margin: 299px 0 0 calc(50% - 21px + 0.5px);
+  }
+  .block__wraper {
+    padding: 90px 0 0 180px;
+  }
+  .block-serveces__title {
+    padding-top: 43px;
+  }
+  .block-services__text {
+    padding: 30px 0 43px 0;
+  }
+  .container__block-commerce {
+    width: 28%;
+  }
+  .shadow-bg-1 {
+    width: 97%;
+  }
+  .shadow-bg-2 {
+    width: 94%;
+  }
+  .container2__block-photo {
+    background: url(/img/Statement/man-desktop-sd.png) no-repeat center;
+  }
+}
+@media (min-width: 1920px) {
+  .block-bg .H-logo {
+    width: 872px;
+    height: 1000px;
+    background: url(/img/Header/Symbol-desktop-hd.png) no-repeat;
+    left: calc(50% - 436px);
+  }
+  .block__header {
+    padding: 50px 160px 0 0;
+  }
+  .block__wrap-header-logo-hlegal svg {
+    margin: -30px 0 0 160px;
+  }
+  .block__wrap-menu-nav {
+    padding: 0 160px 0 0;
+  }
+  .block__title {
+    padding: 340px 0 0 0;
+  }
+  .block__scroll .block__scroll-svg {
+    margin: 405px 0 0 calc(50% - 21px + 0.5px);
+  }
+  .block__wraper {
+    padding: 90px 0 0 280px;
+  }
+  .block-serveces__title {
+    padding-top: 73px;
+  }
+  .block-services__text {
+    padding: 30px 0 73px 0;
+  }
+  .container {
+    padding: 60px 160px;
+  }
+  .shadow-bg-1 {
+    width: 98%;
+  }
+  .shadow-bg-2 {
+    width: 96%;
+  }
+  .container2 {
+    padding: 0 160px 0 160px;
+  }
+  .container2__block-photo {
+    background: url(/img/Statement/man-desktop-hd.png) no-repeat center;
+  }
+  .container3 {
+    padding: 60px 100px 60px 100px;
+  }
+  .corner-top-left {
+    border-top-left-radius: 12px;
+  }
+  .corner-top-right {
+    border-top-right-radius: 12px;
+  }
+  .corner-bottom-left {
+    border-bottom-left-radius: 12px;
+  }
+  .corner-bottom-right {
+    border-bottom-right-radius: 12px;
+  }
+  .card__news {
+    width: 32%;
+  }
+  .card__news-1 {
+    width: 32%;
+  }
+  .card__news-2 {
+    width: 32%;
+  }
+  .news__photo {
+    background: url(/img/card-news-photo/theworkingprocess-desktop-hd.png) no-repeat center;
+    background-size: cover;
+  }
+  .news__photo-1 {
+    background: url(/img/card-news-photo/flaggdpr-desktop-hd.png) no-repeat center;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=style.css.map */

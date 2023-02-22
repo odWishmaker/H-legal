@@ -1,0 +1,108 @@
+@media (min-width: 1920px) {
+    .block-bg {
+        .H-logo {
+            width: 872px;
+            height: 1000px;
+            background: url(/img/Header/Symbol-desktop-hd.png) no-repeat;
+            left: calc(50% - 872px/2);
+        }
+    } 
+    
+    .block__header {
+        padding: 50px 160px 0 0;
+    }
+
+    .block__wrap-header-logo-hlegal {
+        svg {
+            margin: -30px 0 0 160px;
+        }
+    }
+
+    .block__wrap-menu-nav {
+        padding: 0 160px 0 0;
+    }
+
+    .block__title {
+        padding: 340px 0 0 0;
+    }    
+
+    .block__scroll {
+        .block__scroll-svg {
+            margin: 405px 0 0 calc(50% - 42px/2 + 0.5px);
+        }    
+    }    
+
+    .block__wraper {
+        padding: 90px 0 0 280px;
+    }    
+
+    .block-serveces__title {
+        padding-top: 73px;
+    }
+
+    .block-services__text {
+        padding: 30px 0 73px 0;
+    }
+
+    .container {
+        padding: 60px 160px;
+    }
+
+    .shadow-bg-1 {
+        width: 98%;
+    }   
+
+    .shadow-bg-2 {
+        width: 96%;
+    }   
+    
+    .container2 {
+        padding: 0 160px 0 160px;
+    }
+
+    .container2__block-photo {
+        background: url(/img/Statement/man-desktop-hd.png) no-repeat center;
+    }
+
+    .container3 {
+        padding: 60px 100px 60px 100px;
+    }
+
+    .corner-top-left {
+        border-top-left-radius: 12px;
+    }
+
+    .corner-top-right {
+        border-top-right-radius: 12px;
+    }
+
+    .corner-bottom-left {
+        border-bottom-left-radius: 12px;
+    }
+
+    .corner-bottom-right {
+        border-bottom-right-radius: 12px;
+    }
+
+    .card__news {
+        width: 32%;
+    }
+
+    .card__news-1 {
+        width: 32%;
+    }
+
+    .card__news-2 {
+        width: 32%;
+    }
+
+    .news__photo {
+        background: url(/img/card-news-photo/theworkingprocess-desktop-hd.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .news__photo-1 {
+        background: url(/img/card-news-photo/flaggdpr-desktop-hd.png) no-repeat center;
+        background-size: cover;
+    }
+}
