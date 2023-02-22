@@ -3,7 +3,7 @@
         .H-logo {
             width: 872px;
             height: 1000px;
-            background: url(/img/Header/Symbol-desktop-hd.png) no-repeat;
+            background: url(../img/Header/Symbol-desktop-hd.png) no-repeat;
             left: calc(50% - 872px/2);
         }
     } 
@@ -61,7 +61,7 @@
     }
 
     .container2__block-photo {
-        background: url(/img/Statement/man-desktop-hd.png) no-repeat center;
+        background: url(../img/Statement/man-desktop-hd.png) no-repeat center;
     }
 
     .container3 {
@@ -97,12 +97,12 @@
     }
 
     .news__photo {
-        background: url(/img/card-news-photo/theworkingprocess-desktop-hd.png) no-repeat center;
+        background: url(../img/card-news-photo/theworkingprocess-desktop-hd.png) no-repeat center;
         background-size: cover;
     }
 
     .news__photo-1 {
-        background: url(/img/card-news-photo/flaggdpr-desktop-hd.png) no-repeat center;
+        background: url(../img/card-news-photo/flaggdpr-desktop-hd.png) no-repeat center;
         background-size: cover;
     }
 }

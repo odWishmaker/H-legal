@@ -30,7 +30,7 @@ body {
 .block-bg {
   width: 100%;
   position: relative;
-  background: url(/img/Header/Symbol-mobile.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background: url(../img/Header/Symbol-mobile.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0px 0px 12px 12px;
 }
 
@@ -364,7 +364,7 @@ body {
 .container2__block-photo {
   width: 100%;
   padding-top: 500px;
-  background: url(/img/Statement/man-mobile.png) no-repeat center;
+  background: url(../img/Statement/man-mobile.png) no-repeat center;
   background-size: cover;
   border-radius: 8px 8px 0 0;
 }
@@ -445,23 +445,23 @@ body {
 }
 
 .frame__card-hillel {
-  background: #1C4280 url(/img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
+  background: #1C4280 url(../img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
 }
 
 .frame__card-wannabiz {
-  background: #143646 url(/img/frame-card/wannabiz.png) no-repeat center center;
+  background: #143646 url(../img/frame-card/wannabiz.png) no-repeat center center;
 }
 
 .frame__card-tapgerine {
-  background: #F48B30 url(/img/frame-card/tapgerine.png) no-repeat center center;
+  background: #F48B30 url(../img/frame-card/tapgerine.png) no-repeat center center;
 }
 
 .frame__card-3dlook {
-  background: #9E4DC3 url(/img/frame-card/3dlook.png) no-repeat center center;
+  background: #9E4DC3 url(../img/frame-card/3dlook.png) no-repeat center center;
 }
 
 .frame__card-orangear {
-  background: #FD9339 url(/img/frame-card/orangear.png) no-repeat center center;
+  background: #FD9339 url(../img/frame-card/orangear.png) no-repeat center center;
 }
 
 .frame__card-adtelligent {
@@ -526,7 +526,7 @@ body {
 .news__photo {
   width: 100%;
   padding-top: 200px;
-  background: url(/img/card-news-photo/theworkingprocess-mobile.png) no-repeat center;
+  background: url(../img/card-news-photo/theworkingprocess-mobile.png) no-repeat center;
   background-size: cover;
   border-radius: 8px 8px 0 0;
 }
@@ -568,7 +568,7 @@ body {
 .news__photo-1 {
   width: 100%;
   padding-top: 200px;
-  background: url(/img/card-news-photo/flaggdpr-mobile.png) no-repeat center;
+  background: url(../img/card-news-photo/flaggdpr-mobile.png) no-repeat center;
   background-size: cover;
   border-radius: 8px 8px 0 0;
 }
@@ -582,7 +582,7 @@ body {
 .news__photo-2 {
   width: 100%;
   padding-top: 200px;
-  background: url(/img/card-news-photo/peopple-mobile.png) no-repeat center;
+  background: url(../img/card-news-photo/peopple-mobile.png) no-repeat center;
   background-size: cover;
   border-radius: 8px 8px 0 0;
 }
@@ -645,7 +645,7 @@ body {
 @media (min-width: 768px) {
   .block-bg {
     background-size: cover;
-    background: url(/img/Header/Symbol-tablet-sd.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    background: url(../img/Header/Symbol-tablet-sd.png) no-repeat, linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   }
   .block__header {
     padding: 50px 0 0 67px;
@@ -775,7 +775,7 @@ body {
   .container2__block-photo {
     width: 100%;
     padding-top: 500px;
-    background: url(/img/Statement/man-tablet-sd.png) no-repeat center;
+    background: url(../img/Statement/man-tablet-sd.png) no-repeat center;
     background-size: cover;
   }
   .block-statement__statement {
@@ -794,47 +794,47 @@ body {
     width: 33%;
   }
   .frame__card-hillel {
-    background: #1C4280 url(/img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
+    background: #1C4280 url(../img/frame-card/Hillel-Logo-OneLine-White-Uk.png) no-repeat center center;
   }
   .frame__card-wannabiz {
-    background: #143646 url(/img/frame-card/wannabiz.png) no-repeat center center;
+    background: #143646 url(../img/frame-card/wannabiz.png) no-repeat center center;
   }
   .frame__card-tapgerine {
-    background: #F48B30 url(/img/frame-card/tapgerine.png) no-repeat center center;
+    background: #F48B30 url(../img/frame-card/tapgerine.png) no-repeat center center;
   }
   .frame__card-3dlook {
-    background: #9E4DC3 url(/img/frame-card/3dlook.png) no-repeat center center;
+    background: #9E4DC3 url(../img/frame-card/3dlook.png) no-repeat center center;
   }
   .frame__card-orangear {
-    background: #FD9339 url(/img/frame-card/orangear.png) no-repeat center center;
+    background: #FD9339 url(../img/frame-card/orangear.png) no-repeat center center;
   }
   .frame__card-adtelligent {
     display: block;
-    background: #E2E2E4 url(/img/frame-card/adtelliege.png) no-repeat center center;
+    background: #E2E2E4 url(../img/frame-card/adtelliege.png) no-repeat center center;
   }
   .frame__card-clickky {
     display: block;
-    background: #C71C36 url(/img/frame-card/clickky.png) no-repeat center center;
+    background: #C71C36 url(../img/frame-card/clickky.png) no-repeat center center;
   }
   .frame__card-ecoleasing {
     display: block;
-    background: #DCF3F9 url(/img/frame-card/ecolease.png) no-repeat center center;
+    background: #DCF3F9 url(../img/frame-card/ecolease.png) no-repeat center center;
   }
   .frame__card-infratek {
     display: block;
-    background: #EAEAEA url(/img/frame-card/infratek.png) no-repeat center center;
+    background: #EAEAEA url(../img/frame-card/infratek.png) no-repeat center center;
   }
   .frame__card-citypark {
     display: block;
-    background: #282240 url(/img/frame-card/citypark.png) no-repeat center center;
+    background: #282240 url(../img/frame-card/citypark.png) no-repeat center center;
   }
   .frame__card-artprint {
     display: block;
-    background: #1D4568 url(/img/frame-card/artprint.png) no-repeat center center;
+    background: #1D4568 url(../img/frame-card/artprint.png) no-repeat center center;
   }
   .frame__card-ultimatecard {
     display: block;
-    background: #000000 url(/img/frame-card/ultimatecard.png) no-repeat center center;
+    background: #000000 url(../img/frame-card/ultimatecard.png) no-repeat center center;
   }
   .container4 {
     padding: 30px 60px 0 60px;
@@ -855,7 +855,7 @@ body {
     margin: 0;
   }
   .news__photo-2 {
-    background: url(/img/card-news-photo/peopple-tablet-sd.png) no-repeat center;
+    background: url(../img/card-news-photo/peopple-tablet-sd.png) no-repeat center;
     background-size: cover;
   }
   .line {
@@ -912,7 +912,7 @@ body {
     width: 670px;
     height: 768px;
     position: absolute;
-    background: url(/img/Header/Symbol-tablet-hd.png) no-repeat;
+    background: url(../img/Header/Symbol-tablet-hd.png) no-repeat;
     left: calc(50% - 335px);
   }
   .block__header {
@@ -1003,7 +1003,7 @@ body {
   .container2__block-photo {
     padding: 0 0 0 400px;
     width: unset;
-    background: url(/img/Statement/man-tablet-hd.png) no-repeat center;
+    background: url(../img/Statement/man-tablet-hd.png) no-repeat center;
   }
   .card {
     width: 25%;
@@ -1023,7 +1023,7 @@ body {
     margin: 0;
   }
   .news__photo-2 {
-    background: url(/img/card-news-photo/peopple-tablet-hd.png) no-repeat center;
+    background: url(../img/card-news-photo/peopple-tablet-hd.png) no-repeat center;
     background-size: cover;
   }
   .block__number {
@@ -1040,7 +1040,7 @@ body {
   .block-bg .H-logo {
     width: 705px;
     height: 799px;
-    background: url(/img/Header/Symbol-desktop-sd.png) no-repeat;
+    background: url(../img/Header/Symbol-desktop-sd.png) no-repeat;
     left: calc(50% - 352.5px);
   }
   .block__title {
@@ -1068,14 +1068,14 @@ body {
     width: 94%;
   }
   .container2__block-photo {
-    background: url(/img/Statement/man-desktop-sd.png) no-repeat center;
+    background: url(../img/Statement/man-desktop-sd.png) no-repeat center;
   }
 }
 @media (min-width: 1920px) {
   .block-bg .H-logo {
     width: 872px;
     height: 1000px;
-    background: url(/img/Header/Symbol-desktop-hd.png) no-repeat;
+    background: url(../img/Header/Symbol-desktop-hd.png) no-repeat;
     left: calc(50% - 436px);
   }
   .block__header {
@@ -1115,7 +1115,7 @@ body {
     padding: 0 160px 0 160px;
   }
   .container2__block-photo {
-    background: url(/img/Statement/man-desktop-hd.png) no-repeat center;
+    background: url(../img/Statement/man-desktop-hd.png) no-repeat center;
   }
   .container3 {
     padding: 60px 100px 60px 100px;
@@ -1142,11 +1142,11 @@ body {
     width: 32%;
   }
   .news__photo {
-    background: url(/img/card-news-photo/theworkingprocess-desktop-hd.png) no-repeat center;
+    background: url(../img/card-news-photo/theworkingprocess-desktop-hd.png) no-repeat center;
     background-size: cover;
   }
   .news__photo-1 {
-    background: url(/img/card-news-photo/flaggdpr-desktop-hd.png) no-repeat center;
+    background: url(../img/card-news-photo/flaggdpr-desktop-hd.png) no-repeat center;
     background-size: cover;
   }
 }/*# sourceMappingURL=style.css.map */

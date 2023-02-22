@@ -6,7 +6,7 @@
             width: 670px;
             height: 768px;
             position: absolute;
-            background: url(/img/Header/Symbol-tablet-hd.png) no-repeat;
+            background: url(../img/Header/Symbol-tablet-hd.png) no-repeat;
             left: calc(50% - 670px/2);
         }
     }    
@@ -128,7 +128,7 @@
     .container2__block-photo {
         padding:0 0 0 400px;
         width: unset;
-        background: url(/img/Statement/man-tablet-hd.png) no-repeat center;
+        background: url(../img/Statement/man-tablet-hd.png) no-repeat center;
     }
 
     .card {
@@ -154,7 +154,7 @@
     }
 
     .news__photo-2 {
-        background: url(/img/card-news-photo/peopple-tablet-hd.png) no-repeat center;
+        background: url(../img/card-news-photo/peopple-tablet-hd.png) no-repeat center;
         background-size: cover;
     }
 
